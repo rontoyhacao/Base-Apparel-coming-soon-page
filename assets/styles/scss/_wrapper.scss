@@ -80,6 +80,8 @@ main {
                             width: 100px;
                             position: absolute;
                             right: 10%;
+                            top: 50%;
+                            transform: translateY(-50%);
                             cursor: pointer;
                             box-shadow: 0 20px 50px hsla(0, 36%, 70%, 0.5);
                             transition: 0.2s;

@@ -34,7 +34,7 @@
                             margin: 35px 0;
                             input {
                                 width: 100%;
-                                height: 46px;
+                                height: 48px;
                                 padding-left: 25px;
                                 font-size: 14px;
                                 background: $linear;
@@ -47,8 +47,9 @@
                             }
                             button {
                                 right: 0;
-                                height: 46px;
+                                height: 48px;
                                 width: 60px;
+                                border-radius: 25px;
                             }
                         }
                     }
