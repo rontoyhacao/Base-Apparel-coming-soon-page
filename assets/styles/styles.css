@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: #ce9797;
+  background: linear-gradient(135deg, white, #fff5f5);
+}
+
+main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+main .wrapper .left {
+  width: 60%;
+  background: url(/assets/images/bg-pattern-desktop.svg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 40px;
+}
+
+main .wrapper .left .left-wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+main .wrapper .left .left-wrapper header img {
+  margin: 65px 0;
+}
+
+main .wrapper .left .left-wrapper .mobile-hero {
+  display: none;
+}
+
+main .wrapper .left .left-wrapper section {
+  margin: 65px 0;
+}
+
+main .wrapper .left .left-wrapper section h1 {
+  font-size: 66px;
+  text-transform: uppercase;
+  letter-spacing: 18px;
+  color: #413a3a;
+  line-height: 70px;
+}
+
+main .wrapper .left .left-wrapper section h1 span {
+  font-weight: 300;
+  color: #ce9797;
+}
+
+main .wrapper .left .left-wrapper section p {
+  margin-top: 15px;
+  line-height: 28px;
+  padding-right: 50px;
+}
+
+main .wrapper .left .left-wrapper section form {
+  position: relative;
+  margin: 40px 0;
+}
+
+main .wrapper .left .left-wrapper section form input {
+  height: 55px;
+  width: 90%;
+  border: 1px solid #f8bfbf;
+  border-radius: 50px;
+  padding-left: 30px;
+  background: transparent;
+  font-family: inherit;
+  color: #413a3a;
+  font-size: 17px;
+}
+
+main .wrapper .left .left-wrapper section form input::-webkit-input-placeholder {
+  color: #f8bfbf;
+  font-size: 17px;
+}
+
+main .wrapper .left .left-wrapper section form input:-ms-input-placeholder {
+  color: #f8bfbf;
+  font-size: 17px;
+}
+
+main .wrapper .left .left-wrapper section form input::-ms-input-placeholder {
+  color: #f8bfbf;
+  font-size: 17px;
+}
+
+main .wrapper .left .left-wrapper section form input::placeholder {
+  color: #f8bfbf;
+  font-size: 17px;
+}
+
+main .wrapper .left .left-wrapper section form input:focus {
+  outline: none;
+  border: 2px solid #ce9797;
+}
+
+main .wrapper .left .left-wrapper section form .error-icon {
+  background: url(/assets/images/icon-error.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 170px;
+  display: none;
+}
+
+main .wrapper .left .left-wrapper section form button {
+  background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  border: none;
+  border-radius: 50px;
+  height: 55px;
+  width: 100px;
+  position: absolute;
+  right: 10%;
+  cursor: pointer;
+  -webkit-box-shadow: 0 20px 50px rgba(206, 151, 151, 0.5);
+          box-shadow: 0 20px 50px rgba(206, 151, 151, 0.5);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+main .wrapper .left .left-wrapper section form button:hover {
+  opacity: 0.5;
+  -webkit-box-shadow: 0 10px 25px rgba(249, 98, 98, 0.9);
+          box-shadow: 0 10px 25px rgba(249, 98, 98, 0.9);
+}
+
+main .wrapper .left .left-wrapper section form .validate {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 14px;
+  display: none;
+}
+
+main .wrapper .left .left-wrapper section form .error-text {
+  color: #f96262;
+}
+
+main .wrapper .left .left-wrapper section form.error input {
+  border: 2px solid #f96262;
+}
+
+main .wrapper .left .left-wrapper section form.error .error-icon {
+  display: block;
+}
+
+main .wrapper .right {
+  width: 45%;
+}
+
+main .wrapper .hero-image {
+  background: url(/assets/images/hero-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 730px) {
+  main .wrapper .left {
+    width: 100%;
+    padding: 0;
+  }
+  main .wrapper .left .left-wrapper {
+    max-width: none;
+  }
+  main .wrapper .left .left-wrapper header img {
+    height: 21px;
+    margin: 30px 30px;
+  }
+  main .wrapper .left .left-wrapper .mobile-hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .wrapper .left .left-wrapper section {
+    margin: 62px 0;
+    text-align: center;
+    padding: 0 35px;
+  }
+  main .wrapper .left .left-wrapper section h1 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 10px;
+  }
+  main .wrapper .left .left-wrapper section p {
+    padding: 0;
+    line-height: 22px;
+    font-size: 14px;
+  }
+  main .wrapper .left .left-wrapper section form {
+    margin: 35px 0;
+  }
+  main .wrapper .left .left-wrapper section form input {
+    width: 100%;
+    height: 46px;
+    padding-left: 25px;
+    font-size: 14px;
+    background: linear-gradient(135deg, white, #fff5f5);
+  }
+  main .wrapper .left .left-wrapper section form input::-webkit-input-placeholder {
+    font-size: inherit;
+  }
+  main .wrapper .left .left-wrapper section form input:-ms-input-placeholder {
+    font-size: inherit;
+  }
+  main .wrapper .left .left-wrapper section form input::-ms-input-placeholder {
+    font-size: inherit;
+  }
+  main .wrapper .left .left-wrapper section form input::placeholder {
+    font-size: inherit;
+  }
+  main .wrapper .left .left-wrapper section form .error-icon {
+    right: 70px;
+  }
+  main .wrapper .left .left-wrapper section form button {
+    right: 0;
+    height: 46px;
+    width: 60px;
+  }
+  main .wrapper .right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

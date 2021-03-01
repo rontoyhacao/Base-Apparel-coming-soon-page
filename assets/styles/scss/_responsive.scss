@@ -1,0 +1,62 @@
+@media screen and (max-width: 730px) {
+    main {
+        .wrapper {
+            .left {
+                width: 100%;
+                padding: 0;
+                .left-wrapper {
+                    max-width: none;
+                    header {
+                        img {
+                            height: 21px;
+                            margin: 30px 30px;
+                        }
+                    }
+                    .mobile-hero {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    section {
+                        margin: 62px 0;
+                        text-align: center;
+                        padding: 0 35px;
+                        h1 {
+                            font-size: 40px;
+                            line-height: 42px;
+                            letter-spacing: 10px;
+                        }
+                        p {
+                            padding: 0;
+                            line-height: 22px;
+                            font-size: 14px;
+                        }
+                        form {
+                            margin: 35px 0;
+                            input {
+                                width: 100%;
+                                height: 46px;
+                                padding-left: 25px;
+                                font-size: 14px;
+                                background: $linear;
+                                &::placeholder {
+                                    font-size: inherit;
+                                }
+                            }
+                            .error-icon {
+                                right: 70px;
+                            }
+                            button {
+                                right: 0;
+                                height: 46px;
+                                width: 60px;
+                            }
+                        }
+                    }
+                }
+            }
+            .right {
+                display: none;
+            }
+        }
+    }
+}
