@@ -200,12 +200,12 @@ main .wrapper .hero-image {
     margin: 30px 30px;
   }
   main .wrapper .left .left-wrapper .mobile-hero {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: block;
+    background: url(/assets/images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
   }
   main .wrapper .left .left-wrapper section {
     margin: 62px 0;

@@ -13,8 +13,12 @@
                         }
                     }
                     .mobile-hero {
-                        display: flex;
-                        justify-content: center;
+                        display: block;
+                        background: url(/assets/images/hero-mobile.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                        height: 250px;
                     }
                     section {
                         margin: 62px 0;
